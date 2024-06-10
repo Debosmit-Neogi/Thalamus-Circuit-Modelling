@@ -516,8 +516,8 @@ spike_mon_cortex_inh = SpikeMonitor(cortex_inh)
 rate_mon_inh = PopulationRateMonitor(cortex_inh)
 
 v_mon_thalamus_AD = StateMonitor(thalamus_AD, 'v', record=True)
-v_mon_thalamus_AD = StateMonitor(thalamus_AV, 'v', record=True)
-v_mon_thalamus_AD = StateMonitor(thalamus_AM, 'v', record=True)
+v_mon_thalamus_AV = StateMonitor(thalamus_AV, 'v', record=True)
+v_mon_thalamus_AV = StateMonitor(thalamus_AM, 'v', record=True)
 
 v_mon_cortex_exc = StateMonitor(cortex_exc, 'v', record=True)
 v_mon_cortex_inh = StateMonitor(cortex_inh, 'v', record=True)
