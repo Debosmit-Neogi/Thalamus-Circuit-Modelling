@@ -660,14 +660,14 @@ plt.subplot(3, 3, 9)
 # for i in range(len(v_mon_cortex_exc.v)):
 plt.plot(v_mon_cortex_exc.t/ms, avg_exc_cortex_membrane_potential)
 plt.xlabel('Time (ms)')
-plt.ylabel('Membrane potential (mV)')
+plt.ylabel('Membrane potential (V)')
 plt.title('Excitatory Cortex Membrane Potential')
 
 # Membrane potential trace for inhibitory cortex neuron
 plt.subplot(3, 3, 10)
 plt.plot(v_mon_cortex_inh.t/ms,avg_inh_cortex_membrane_potential)
 plt.xlabel('Time (ms)')
-plt.ylabel('Membrane potential (mV)')
+plt.ylabel('Membrane potential (V)')
 plt.title('Inhibitory Cortex Membrane Potential')
 
 # # Synaptic weight evolution for thalamus to excitatory cortex
